@@ -11,7 +11,7 @@ body {
 }
 
 #score_container {
-    width: 20%;
+    width: 40%;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
@@ -24,7 +24,7 @@ body {
 
 .emoji {
   width: 60%;
-    margin: 0 auto;
+margin: 0 auto;
   border: 1px solid #9ACDFC;
   border-radius: 50%;
 }
@@ -73,4 +73,20 @@ body {
     text-align: center;
     font-size: 60px; 
     cursor: pointer; 
+}
+
+#computer_option {
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+    font-size: 30px; 
+    align-items: center;
+}
+
+.emoji_computer {
+    width: 20%;
+    text-align: center;
+    font-size: 60px;
+
 }
