@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: black;
+    background-color: #7399BD;
     color: white;
 }
 body {
@@ -11,12 +11,12 @@ body {
 }
 
 #score_container {
-    width: 30%;
+    width: 20%;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     font-size: 60px;
-    margin-top: 80px;    
+    margin-top: 20px;    
 }
 
 .game_options {
@@ -45,13 +45,52 @@ body {
     margin: 0 auto;
     text-align: center;
     font-size: 60px; 
-
 }
-
 
 #emoji {
   width: 60%;
     margin: 0 auto;
-  border: 1px solid blue;
+  border: 1px solid #9ACDFC;
   border-radius: 50%;
+}
+
+#choice_heading {
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    color: #3775B0;
+}
+
+.player_options {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 60px; 
+}
+
+#rock_choice {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px; 
+}
+#paper_choice {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px; 
+}
+#scissors_choice {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px; 
 }
