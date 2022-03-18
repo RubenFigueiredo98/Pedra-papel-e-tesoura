@@ -9,14 +9,30 @@ const paper_div = document.getElementById('paper_choice');
 
 let pScore = 0;
 let cScore = 0; 
-const choice = [rock, paper, scissors];
-let computerChoice = []
-
-function computer_choice (){
-    computerChoice.push(choice[Math.random() * 3])
+function computer_choice() {
+    const choice = ["r", "p", "s"];
+    let computerChoice = choice[Math.floor(Math.random() * 3)];
     return computerChoice;
 }
+console.log(computer_choice());
+function game (userChoice) {
 
-function sum (number) {
-    return 1 * number
 }
+
+
+function main (){
+   rock_div.addEventListener('click', function() {
+    game("r")
+});
+
+paper_div.addEventListener('click', function() {
+    game("p")
+});
+
+scissors_div.addEventListener('click', function() {
+    game("s")
+}); 
+
+
+}
+main()
