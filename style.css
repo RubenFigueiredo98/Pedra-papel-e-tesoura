@@ -11,10 +11,47 @@ body {
 }
 
 #score_container {
-    width: 40%;
+    width: 30%;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     font-size: 60px;
     margin-top: 80px;    
+}
+
+.game_options {
+    width: 50%;
+    margin: 0 auto;
+    display: flex; 
+    margin-top: 100px;    
+    justify-content: space-between;
+    height: 200px;
+
+}
+
+#player_choice {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px; 
+}
+
+#computer_choice {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px; 
+
+}
+
+
+#emoji {
+  width: 60%;
+    margin: 0 auto;
+  border: 1px solid blue;
+  border-radius: 50%;
 }
