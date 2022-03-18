@@ -21,35 +21,8 @@ body {
     padding: 30px;
 }
 
-.game_options {
-    width: 50%;
-    margin: 0 auto;
-    display: flex; 
-    margin-top: 100px;    
-    justify-content: space-between;
-    height: 200px;
 
-}
-
-#player_choice {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 60px; 
-}
-
-#computer_choice {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 60px; 
-}
-
-#emoji {
+.emoji {
   width: 60%;
     margin: 0 auto;
   border: 1px solid #9ACDFC;
